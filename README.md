@@ -1,4 +1,4 @@
-# MEU-DESAFIO-MBA-FIAP
+# MBA-FIAP-APP-IONIC
 ## Entrega da atividade de microserviços do MBA da FIAP
 
 App em Ionic com integração microserviço em Spring Boot:
