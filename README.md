@@ -9,7 +9,9 @@ App em Ionic com integração microserviço em Spring Boot:
 Executar o app a partir do comando: ionic serve
 
 ## Integrantes do Grupo H
-Gisele Niero Scaramel - gisscaramel@gmail.com
-Marcelo Gomes Correia - celogc@yahoo.com.br
-Soraya Vieira Cardoso Alves - soraya@soraya.com.br
+> Gisele Niero Scaramel - gisscaramel@gmail.com
+
+> Marcelo Gomes Correia - celogc@yahoo.com.br
+
+> Soraya Vieira Cardoso Alves - soraya@soraya.com.br
 
