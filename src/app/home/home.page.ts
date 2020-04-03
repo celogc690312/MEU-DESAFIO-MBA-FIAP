@@ -148,7 +148,7 @@ export class HomePage {
         const alert = await this.alertCtrl.create({
           header: 'MBA Engenharia de Software (Turma 1AOJO)',
           subHeader: 'Componentes do grupo',
-          message: '<p>Gisele Niero Scaramel RM 333956</p><p>Marcelo Gomes Correia RM 333804</p><p>Soraya Vieira Cardoso Alves RM 333278</p>',
+          message: '<p>Gisele Niero Scaramel<br>RM 333956</br></p><p>Marcelo Gomes Correia<br>RM 333804</br></p><p>Soraya Vieira Cardoso Alves<br>RM 333278</br></p>',
           buttons: [
          {
               text: 'Ok',
