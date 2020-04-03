@@ -148,7 +148,7 @@ export class HomePage {
         const alert = await this.alertCtrl.create({
           header: 'MBA Engenharia de Software (Turma 1AOJO)',
           subHeader: 'Componentes do grupo',
-          message: '<p>Gisele Niero Scaramel<br>RM 333956</br></p><p>Marcelo Gomes Correia<br>RM 333804</br></p><p>Soraya Vieira Cardoso Alves<br>RM 333278</br></p>',
+          message: '<ion-list><ion-item><ion-avatar slot="end"><img src="./assets/gisele.png"></ion-avatar><ion-label><h3>Gisele Niero Scaramel</h3><p>RM 333956</p></ion-label></ion-item><ion-item><ion-avatar slot="end"><img src="./assets/marcelo.png"></ion-avatar><ion-label><h3>Marcelo Gomes Correia</h3><p>RM 333804</p></ion-label></ion-item><ion-item><ion-avatar slot="end"><img src="./assets/soraya.png"></ion-avatar><ion-label><h3>Soraya Vieira Cardoso Alves</h3><p>RM 333278</p></ion-label></ion-item>',
           buttons: [
          {
               text: 'Ok',
