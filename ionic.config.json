@@ -1,0 +1,13 @@
+{
+  "name": "appFiap",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "proxies": [
+    {
+      "path": "/transaction",
+      "proxyUrl": "http://localhost:8080/transaction/"
+    }
+  ]
+}

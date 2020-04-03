@@ -1,0 +1,84 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      MBA Engenharia de Software
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="medium">
+    <ion-card color="light">
+      <ion-card-header>
+        <ion-card-subtitle>Verificar se cartão está cadastrado na base como suspeito de fraude. (Informe apenas os números)</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        <ion-item>
+          <ion-label position="floating">Número do cartão<ion-text color="danger" id="numeroCartao">*</ion-text></ion-label>
+          <ion-input type="number" [(ngModel)]="cartao" required ></ion-input>
+        </ion-item>
+      </ion-card-content>
+
+      <ion-button color="dark" shape="round" expand="block" (click)="verificarCardbinSuspeito()">Verificar</ion-button> 
+
+    <!-- Botões para testes de outros endpoints -->
+    <!-- <ion-button expand="block" (click)="verificarSeCardbinExiste()">Verificar se cartão existe</ion-button> -->
+    <!-- <ion-button expand="block" (click)="obterInformacoesCardbin()">Obter informações do cartão suspeito</ion-button>  -->
+
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+          Para realizar os teste do App, os cartões listados abaixo foram incluídos na base de dados como cartões suspeitos.
+          Qualquer outro número informado será considerado válido.
+      </ion-card-header>
+
+      <ion-card color="light">
+        <ion-card-header>
+          <ion-card-title>
+            <ion-icon name="card-outline"></ion-icon>
+            123456789
+          </ion-card-title>
+        </ion-card-header>
+      </ion-card>
+
+      <ion-card color="light">
+        <ion-card-header>
+          <ion-card-title>
+            <ion-icon name="card-outline"></ion-icon>
+            987654321
+          </ion-card-title>
+        </ion-card-header>
+      </ion-card>
+  
+      <ion-card color="light">
+        <ion-card-header>
+          <ion-card-title>
+            <ion-icon name="card-outline"></ion-icon>
+            111222333
+          </ion-card-title>
+        </ion-card-header>
+      </ion-card>
+  
+      <ion-card color="light">
+        <ion-card-header>
+          <ion-card-title>
+            <ion-icon name="card-outline"></ion-icon>
+            123412341234
+          </ion-card-title>
+        </ion-card-header>
+      </ion-card>
+      
+    </ion-card>
+
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed" (click)="apresentarEquipe()">
+      <ion-fab-button>
+        <ion-icon name="people-outline"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+
+</ion-content>
+
